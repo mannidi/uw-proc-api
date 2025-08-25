@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+	<flow name="uw-proc-apiFlow" doc:id="2a38b283-8a32-440d-8b81-304ff3aa107d" >
+		<http:listener doc:name="Listener" doc:id="545daba2-d120-4fd9-ae75-32e32692c3ae" />
+		<logger level="INFO" doc:name="Logger" doc:id="d63d048a-a5a3-435e-b99a-baedb43c0968" />
+	</flow>
+</mule>
